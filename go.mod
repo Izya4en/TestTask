@@ -3,12 +3,11 @@ module TestTask
 go 1.21
 
 require (
-    github.com/gin-gonic/gin v1.10.0
+    github.com/gorilla/mux v1.8.0
     github.com/joho/godotenv v1.5.1
-    github.com/sirupsen/logrus v1.9.3
+    gorm.io/driver/postgres v1.4.4
     gorm.io/gorm v1.25.6
-    gorm.io/driver/postgres v1.6.0
-    github.com/swaggo/swag v1.16.2
-    github.com/swaggo/gin-swagger v1.6.2
-    github.com/swaggo/files v0.0.0-20230724143004-840259a2a449
+    github.com/swaggo/files v2.8.0
+    github.com/jinzhu/now v1.1.5
+    github.com/jinzhu/inflection v1.0.0
 )
